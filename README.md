@@ -5,25 +5,25 @@ This project focuses on classifying songs into different genres using machine le
 ## Dataset
 The dataset used for this project contains 4802 rows and 10 columns. The columns include:
 
-acousticness: a measure of the acoustic quality of the song
+* acousticness: a measure of the acoustic quality of the song
 
-danceability: a measure of how suitable the song is for dancing based on a combination of musical elements
+* danceability: a measure of how suitable the song is for dancing based on a combination of musical elements
 
-energy: a measure of the intensity and activity of the song
+* energy: a measure of the intensity and activity of the song
 
-instrumentalness: a measure of whether the song is instrumental or contains vocals
+* instrumentalness: a measure of whether the song is instrumental or contains vocals
 
-liveness: a measure of the presence of a live audience in the recording
+* liveness: a measure of the presence of a live audience in the recording
 
-speechiness: a measure of the presence of spoken words in the song
+* speechiness: a measure of the presence of spoken words in the song
 
-tempo: the tempo of the song in beats per minute (BPM)
+* tempo: the tempo of the song in beats per minute (BPM)
 
-track_id: unique identifier for each song
+* track_id: unique identifier for each song
 
-valence: a measure of the musical positivity of the song
+* valence: a measure of the musical positivity of the song
 
-genre_top: the genre label assigned to each song
+* genre_top: the genre label assigned to each song
 
 ## Project Overview
 The project aims to develop an end-to-end classification model to predict the genre of a song based on its audio features. The project includes the following steps:
