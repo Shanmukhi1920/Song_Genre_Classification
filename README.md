@@ -28,12 +28,16 @@ The dataset used for this project contains 4802 rows and 10 columns. The columns
 ## Project Overview
 The project aims to develop an end-to-end classification model to predict the genre of a song based on its audio features. The project includes the following steps:
 
-Data Loading and Exploratory Data Analysis (EDA): Load the dataset, perform basic data exploration, and visualize the distributions and relationships between variables.
+* Data Loading and Exploratory Data Analysis (EDA): Load the dataset, perform basic data exploration, and visualize the distributions and relationships between variables.
 
-PCA : Performed Principal component analysis for dimension reduction and selected the variables that captured a cumulative variance of 85%.
+* Preprocessing: Removed unnecessary columns, handled class imbalances and normalized the data.
 
-Model Selection: Select appropriate machine learning algorithms for classification, such as Decision Trees, Logistic Regression, and Support Vector Machines (SVM).
+* PCA : Performed Principal component analysis for dimension reduction and selected the variables that captured a cumulative variance of 85%.
 
-Model Evaluation: Evaluate the performance of each model using classification metrics, such as precision, recall, and F1-score. Apply cross-validation to ensure the model's generalization capability.
+* Model Selection: Select appropriate machine learning algorithms for classification, such as Decision Trees, Logistic Regression, and Support Vector Machines (SVM).
 
-Hyperparameter Tuning: Fine-tune the models by optimizing hyperparameters to improve their performance. Use techniques like grid search or random search to find the best combination of hyperparameters.
+* Model Evaluation: Evaluate the performance of each model using classification metrics, such as precision, recall, and F1-score. Apply cross-validation to ensure the model's generalization capability.
+
+* Hyperparameter Tuning: Fine-tune the models by optimizing hyperparameters to improve their performance. Use techniques like grid search or random search to find the best combination of hyperparameters.
+
+* Saving the best performing model(SVM).
