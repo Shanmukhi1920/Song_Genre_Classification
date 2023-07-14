@@ -1,5 +1,6 @@
 ## Song Genre Classification
 
+## Context
 This project focuses on classifying songs into different genres using machine learning techniques. The dataset consists of audio features of songs, such as acousticness, danceability, energy, instrumentalness, liveness, speechiness, tempo, valence, and the corresponding genre labels.
 
 ## Dataset
